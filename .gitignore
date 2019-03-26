@@ -1,6 +1,6 @@
 # ignore token file
-.txt
+*.txt
 # ignore tutorial file
-.pdf
+*.pdf
 # ignore get_token file
 get_token.m
