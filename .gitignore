@@ -4,3 +4,4 @@
 *.pdf
 # ignore get_token file
 get_token.m
+.DS_Store
