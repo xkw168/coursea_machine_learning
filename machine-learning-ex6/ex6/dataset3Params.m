@@ -41,15 +41,10 @@ candidate = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30]
 % end
 
 % % find the minimun error term
-% minErr = min(result(:,3));
-% for i = 1:length(result(:,1))
-%     row = result(i,:);
-%     if row(3) == minErr
-%         C = row(1);
-%         sigma = row(2);
-%         break
-%     end
-% end
+% [minErr, index] = min(result(:,3));
+% r = result(index,:);
+% C = r(1);
+% sigma = r(2);
 
 % the best value we find
 C = 1;
