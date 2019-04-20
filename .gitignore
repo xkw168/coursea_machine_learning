@@ -1,7 +1,7 @@
 # ignore token file
-*.txt
+token*.txt
 # ignore tutorial file
-*.pdf
+#*.pdf
 # ignore get_token file
 get_token.m
 .DS_Store
